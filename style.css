@@ -96,6 +96,7 @@ button:hover{
   #container-right{
     border-top-right-radius: 0px;
     border-bottom-left-radius:9px;
+    
   }
 
   .container{
@@ -111,5 +112,12 @@ button:hover{
     align-items:center;
     justify-content:center;
   }
+
+  
 } 
 
+@media screen and (max-width: 305px){
+  img{
+    max-width:100%;
+  }
+}
