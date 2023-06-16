@@ -99,7 +99,6 @@ button:hover{
   }
 
   .container{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,10 +113,3 @@ button:hover{
   }
 } 
 
-@media screen and (max-width: 304px){
-  
-  img{
-    widht:270px;
-
-  }
-}
