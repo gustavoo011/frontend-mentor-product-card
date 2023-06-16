@@ -88,6 +88,7 @@ button:hover{
 @media screen and (max-width: 725px){
   img{
     width: 274px;
+    flex-wrap:wrap;
     border-bottom-left-radius: 0px;
     border-top-right-radius:9px;
   }
