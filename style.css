@@ -113,3 +113,11 @@ button:hover{
     justify-content:center;
   }
 } 
+
+@media screen and (max-width: 304px){
+  
+  img{
+    widht:270px;
+
+  }
+}
