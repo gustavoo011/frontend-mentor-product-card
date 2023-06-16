@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #F3EBE4;
+}
+
+.container{
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 249px;
+  display: block;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+#container-right{
+  background-color: #FFFFFF;
+  padding: 25px 25px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+h1{
+  font-family: 'Playfair Display ', serif;
+  margin-bottom: 15px;
+}
+
+#perfume{
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+#desc{
+  font-family: sans-serif;
+  margin-bottom: 25px;
+}
+
+#prices{
+  display: flex;
+  line-height: 10px;
+  margin-bottom: 30px;
+}
+
+#big-price{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #3C8267;
+}
+
+#small-price{
+  margin-left: 20px;
+}
+
+button{
+  text-align: center;
+  width: 100%;
+  padding:10px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 9px;
+  border: 0;
+  background-color: #3C8267;
+  color: #F3EBE4;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color:#3Cc267;
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 725px){
+  img{
+    width: 274px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius:9px;
+  }
+
+
+  #container-right{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius:9px;
+  }
+
+  .container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:90%;
+  }
+
+  main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+} 
