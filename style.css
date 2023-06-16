@@ -103,7 +103,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: none;
     width:90%;
   }
 
