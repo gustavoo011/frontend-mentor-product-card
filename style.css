@@ -104,7 +104,6 @@ button:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: none;
-    width:90%;
   }
 
   main{
@@ -119,5 +118,11 @@ button:hover{
 @media screen and (max-width: 305px){
   img{
     max-width:100%;
+  }
+}
+
+@media screen and (max-width: 283px){
+  img{
+    width:1220%;
   }
 }
