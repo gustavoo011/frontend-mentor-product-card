@@ -93,6 +93,9 @@ button:hover{
     border-top-right-radius:9px;
   }
 
+  #container-left{
+    background:url("images/image-product-mobile.jpg");
+  }
 
   #container-right{
     border-top-right-radius: 0px;
