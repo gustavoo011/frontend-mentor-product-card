@@ -17,11 +17,13 @@ body{
   flex-wrap: wrap;
 }
 
-img{
-  width: 249px;
-  display: block;
-  border-top-left-radius: 9px;
-  border-bottom-left-radius: 9px;
+#container-left{
+  background:url("images/image-product-desktop.jpg");
+  background-size:cover;
+  width:249px;
+  height:376px;
+  border-top-left-radius:9px;
+  border-bottom-left-radius:9px;
 }
 
 #container-right{
@@ -81,26 +83,25 @@ button{
 
 button:hover{
   background-color:#3Cc267;
-  transition: 1s;
+  transition: 0.5s;
   transform: scale(1.1);
 }
 
 @media screen and (max-width: 725px){
-  img{
-    width: 274px;
-    flex-wrap:wrap;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius:9px;
-  }
 
   #container-left{
-    background:url("images/image-product-mobile.jpg");
+    background:url("images/image-product-mobile.jpg") center no-repeat;
+    background-size:cover;
+    border-bottom-left-radius:0;
+    border-top-right-radius:9px;
+    width:100%;
+    
   }
 
   #container-right{
     border-top-right-radius: 0px;
     border-bottom-left-radius:9px;
-    
+    width:100%;
   }
 
   .container{
